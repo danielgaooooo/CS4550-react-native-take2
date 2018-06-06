@@ -25,10 +25,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+    Snake.cpp \
+    snakepuke.cpp \
+    model/main.cpp \
+    model/snake.cpp \
+    model/snakepuke.cpp
 
 HEADERS += \
-        mainwindow.h
+    Snake.h \
+    snakepuke.h \
+    model/snake.h \
+    model/Snake.hpp \
+    model/snakepuke.h
 
 FORMS += \
         mainwindow.ui
